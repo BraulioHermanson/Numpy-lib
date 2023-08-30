@@ -74,6 +74,7 @@ print(f"Tempo para somar todos os números no array: {fim - inicio} segundos")
 ## """Resumindo
 # 
 #   Diferenças de listas e arrays
-# 1- Tipo de dados
-# 2- Operaçao  matematica
-# """
+# 1 - Tipo de dados
+# 2 - Operaçao  matematica
+# 3 - Desempenho
+# 4 - Funcionalidades """
