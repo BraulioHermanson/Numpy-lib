@@ -27,3 +27,20 @@ for elemento in array:
 
 print(array.dtype)
 print('-'*20)
+
+# Operacoes Matematicas
+lista = [1, 2, 3, 4, 5]
+# nova_lista = lista +1 # gera erro no numpy
+
+nova_lista = []
+for numero in lista:
+    nova_lista.append(numero + 1)
+
+print(nova_lista)
+print('-'*20)
+## """Com o array do Numpy é possivel adicioanr(subtrair, multiplicar e dividir)
+#  um numero a todos os elementos de uma vez"""
+
+array = np.array([1, 2, 3, 4, 5])
+novo_array = array+1
+print(novo_array)
