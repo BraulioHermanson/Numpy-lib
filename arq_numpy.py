@@ -52,3 +52,21 @@ print(novo_array_)
 # """Grandes quantidades de dados, os arrays NumPy sao signficativamente mais eficientes
 #  em termos de memória e desempenho do que as listas"""
 
+import numpy as np
+import time
+
+# Crie uma lista e um array com 10 milhões de números
+lista = list(range(1, 10_000_001))
+array = np.array(range(1, 10_000_001))
+
+# Calcule a soma de todos os números na lista
+inicio = time.time()
+soma_lista = sum(lista)
+fim = time.time()
+print(f"Tempo para somar todos os números na lista: {fim - inicio} segundos")
+
+# Calcule a soma de todos os números no array
+inicio = time.time()
+soma_array = np.sum(array)
+fim = time.time()
+print(f"Tempo para somar todos os números no array: {fim - inicio} segundos")
