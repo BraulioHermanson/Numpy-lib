@@ -44,3 +44,11 @@ print('-'*20)
 array = np.array([1, 2, 3, 4, 5])
 novo_array = array+1
 print(novo_array)
+
+novo_array_ = array**2
+print('-'*20)
+print(novo_array_)
+# Desempenho
+# """Grandes quantidades de dados, os arrays NumPy sao signficativamente mais eficientes
+#  em termos de memória e desempenho do que as listas"""
+
