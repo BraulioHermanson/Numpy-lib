@@ -96,3 +96,40 @@ print(array[0::2])
 print(array[::2])
 print(array[::])
 print(array[::-1])
+print('-'*20)
+# aplicacoes do dia dia
+precos = np.array([20, 25, 30, 35, 40])
+#auntemando os precos em 10%
+novos_precos = precos *1.1
+print(novos_precos)
+
+#np.sum()
+vendas = np.array([200, 220, 250, 210, 300])
+print(np.sum(vendas))
+
+# np.mean()
+vendas = np.array([200, 220, 250, 210, 300, 280, 230])
+media_vendas = np.mean(vendas)
+print(f"A media de vendas foi: {media_vendas:.2f}.")
+
+#np.max() np.min()
+precos = np.array([20, 25, 30, 35, 40])
+produto_mais_caro = np.max(precos)
+produto_mais_barato = np.min(precos)
+print(f"Produto mais caro: {produto_mais_caro}")
+print(f"Produto mais barato: {produto_mais_barato}")
+
+#np.sort()
+vendas = np.array([200, 220, 250, 210, 300])
+print(np.sort(vendas))
+
+#np.dot()
+# usado para calcular o produto escalar de dois arrays.
+# Calcular o valor total de vendas, dado o numero da cada produto vendido e o preco de cada produto
+
+quantidades = np.array([10, 20, 30, 40])
+precos_unitarios = np.array([5, 10, 15, 20])
+
+print(quantidades* precos_unitarios)
+print(np.sum(quantidades* precos_unitarios))
+print(np.dot(quantidades, precos_unitarios))
