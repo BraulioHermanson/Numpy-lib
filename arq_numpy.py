@@ -78,3 +78,20 @@ print(f"Tempo para somar todos os números no array: {fim - inicio} segundos")
 # 2 - Operaçao  matematica
 # 3 - Desempenho
 # 4 - Funcionalidades """
+
+## ARRAYS
+# É uma estrutura de dados que armazena valores do mesmo tipo. Em Python, isso é uma grande vantagem,pq economiza espaço e permite operaçoes mais eficientes
+
+array = np.array(["a", "b", "c", "d", "e"])
+print(array)
+# indexacao e slice
+print('-'*20)
+print(array[0])
+print(array[1:4])
+print(array[0:-1])
+# step
+print(array[0:-1:2])
+print(array[0::2])
+print(array[::2])
+print(array[::])
+print(array[::-1])
