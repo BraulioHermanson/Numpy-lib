@@ -91,6 +91,7 @@ print(array[1:4])
 print(array[0:-1])
 # step
 print(array[0:-1:2])
+# :: inclui a ultima letra
 print(array[0::2])
 print(array[::2])
 print(array[::])
